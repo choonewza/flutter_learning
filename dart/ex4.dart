@@ -8,7 +8,7 @@ class Dog{
   String name;
   int size;
 
-   Person( String type, String name, [int age = 18,int size =10]) {
+   Dog( String type, String name, [int age = 18,int size =10]) {
      this.age = age;
      this.type = type;
      this.name = name;
